@@ -1,0 +1,14 @@
+{
+  "name": "docker_node_js_express",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Nirbhab Barat <nirbhabbarat@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "mongoose": "^5.9.24"
+  }
+}
