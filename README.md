@@ -1,6 +1,11 @@
 # Build Dynamic Environment using community version of GitLab and minikube at every merge request
 
-## Content
+## Prerequisite
+ - Docker hub account - Free account supports 1 private repo
+ - kubectl on local laptop/desktop
+ - minikube on local laptop/desktop
+
+## Repo Content
   - .gitlab-ci.yml - CI & CD file
   - Dockerfile - used for builing images
   - gitlab-runner.yml - for registering runner to the repo
